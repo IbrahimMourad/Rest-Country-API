@@ -47,7 +47,9 @@ Users should be able to:
 
 ### What I learned
 
-I Practiced React Hooks (useReducer,useContext) and Material UI
+- I Practiced React Hooks (useReducer,useContext)
+- Created Light and Dark Theme using Material UI
+- Saved Theme Choice in Cookies
 
 ### Continued development
 
@@ -56,4 +58,5 @@ There's so much more about React and its ecosystem, i'd like to know more code s
 ## Author
 
 - Frontend Mentor - [@IbrahimMourad](https://www.frontendmentor.io/profile/IbrahimMourad)
-- Twitter - [@Di_Maria97](https://www.twitter.com/Di_Maria97)
+- Linkedin - [@IbrahimMourad](https://www.linkedin.com/in/ibrahimmourad97/)
+- Twitter - [@IbrahimMourad](https://www.twitter.com/Di_Maria97)
