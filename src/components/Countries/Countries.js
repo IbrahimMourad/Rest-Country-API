@@ -26,13 +26,13 @@ export const Countries = React.memo(() => {
       dispatch({ type: 'FETCH_ALL', payload: data });
       dispatch({ type: 'SET_LOADING', payload: false });
     };
-    if (filter === 'All' && !searchWord) {
-      fetchCountries();
-    }
     if (filter !== 'All') {
       fetchByRegion();
     }
-  }, [searchWord]);
+    if (filter === 'All' && !searchWord) {
+      fetchCountries();
+    }
+  }, [filter]);
 
   return (
     <Container sx={{ mt: 2 }}>

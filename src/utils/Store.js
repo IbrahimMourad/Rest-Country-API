@@ -32,7 +32,6 @@ function reducer(state, action) {
         searchWord: action.payload.searchWord,
       };
     case 'SET_FILTER':
-      console.log(action.payload);
       return {
         ...state,
         filter: action.payload.filter,

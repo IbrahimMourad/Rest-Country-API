@@ -13,8 +13,7 @@ export const Details = () => {
   const { state } = useContext(Store);
   const { countries } = state;
   const country = countries.find((country) => country.name === name);
-  console.log(country.name);
-  console.log(country.flags);
+
   const {
     flags,
     nativeName,

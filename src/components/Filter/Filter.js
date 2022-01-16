@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -36,8 +36,9 @@ export const Filter = () => {
       type: 'SEARCH_BY_WORD',
       payload: { searchWord: e.target.value },
     });
-    dispatch({ type: 'SET_LOADING', payload: true });
+    dispatch({ type: 'SET_LOADING', payload: false });
   };
+
   return (
     <Container sx={{ mt: '16px' }}>
       <div className={classes.filterWrapper}>
